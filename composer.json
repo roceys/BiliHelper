@@ -1,5 +1,5 @@
 {
-  "name": "lkeme/bilihelper",
+  "name": "roceys/bilihelper",
   "description": "B 站自动领瓜子、直播助手、直播挂机脚本、主站助手 - PHP 版",
   "type": "project",
   "require": {
@@ -23,7 +23,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "lkeme\\BiliHelper\\": "src/"
+      "roceys\\BiliHelper\\": "src/"
     }
   }
 }
