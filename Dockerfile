@@ -1,6 +1,6 @@
 FROM php:alpine
 
-MAINTAINER zsnmwy <szlszl35622@gmail.com>
+MAINTAINER roceys <szlszl35622@gmail.com>
 
 ENV USER_NAME='' \
     USER_PASSWORD='' \
