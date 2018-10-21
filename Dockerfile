@@ -23,4 +23,4 @@ ENTRYPOINT git pull && \
            php composer.phar install && \
            sed -i ''"$(cat /app/conf/user.conf -n | grep "APP_USER=" | awk '{print $1}')"'c '"$(echo "APP_USER=${USER_NAME}")"'' ${CONIFG_PATH} && \
            sed -i ''"$(cat /app/conf/user.conf -n | grep "APP_PASS=" | awk '{print $1}')"'c '"$(echo "APP_PASS=${USER_PASSWORD}")"'' ${CONIFG_PATH} && \
-           php index.php
+           php index.php 
