@@ -110,6 +110,7 @@ class MasterSite
                     $aids = self::getDayRankingAids($av_num);
                     foreach ($aids as $aid) {
                         self::reward($aid);
+                        sleep(5);
                     }
                 }
                 break;
