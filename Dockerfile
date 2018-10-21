@@ -10,9 +10,13 @@ WORKDIR /app
 
 RUN docker-php-ext-install sockets
 
+#RUN curl -o composer.phar https://getcomposer.org/download/1.7.2/composer.phar \
+#    && chmod +x composer.phar
+
 RUN apk add --no-cache git && \
     git clone https://github.com/roceys/BiliHelper.git /app && \
-    php -r "copy('https://install.phpcomposer.com/installer', 'composer-setup.php');" && \
+    #php -r "copy('https://install.phpcomposer.com/installer', 'composer-setup.php');" && \
+    php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" && \
     php composer-setup.php && \
     php composer.phar install && \
     cp /app/conf/user.conf.example /app/conf/user.conf && \
