@@ -38,7 +38,7 @@ PROXY_IP=
 PROXY_PORT=
 
 # 直播间ID，用于礼物赠送
-ROOM_ID=9522051
+ROOM_ID=3
 
 # 弹幕监控房间(为空则随机)
 SOCKET_ROOM_ID=3
