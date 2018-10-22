@@ -7,13 +7,13 @@
  *  Updated: 2018
  */
 
-namespace lkeme\BiliHelper;
+namespace roceys\BiliHelper;
 
-use lkeme\BiliHelper\Curl;
-use lkeme\BiliHelper\Sign;
-use lkeme\BiliHelper\Log;
-use lkeme\BiliHelper\User;
-use lkeme\BiliHelper\Notice;
+use roceys\BiliHelper\Curl;
+use roceys\BiliHelper\Sign;
+use roceys\BiliHelper\Log;
+use roceys\BiliHelper\User;
+use roceys\BiliHelper\Notice;
 
 class Live
 {
@@ -150,10 +150,10 @@ class Live
 
         self::$lock = $second;
 
-        \lkeme\BiliHelper\Silver::$lock = $second;
-        \lkeme\BiliHelper\MaterialObject::$lock = $second;
-        \lkeme\BiliHelper\Websocket::$lock = $second;
-        \lkeme\BiliHelper\GiftHeart::$lock = $second;
+        \roceys\BiliHelper\Silver::$lock = $second;
+        \roceys\BiliHelper\MaterialObject::$lock = $second;
+        \roceys\BiliHelper\Websocket::$lock = $second;
+        \roceys\BiliHelper\GiftHeart::$lock = $second;
 
         return;
     }

@@ -8,7 +8,7 @@
  */
 
 
-namespace lkeme\BiliHelper;
+namespace roceys\BiliHelper;
 
 
 use Wrench\Client;

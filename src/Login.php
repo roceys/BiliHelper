@@ -7,7 +7,7 @@
  *  Updated: 2018
  */
 
-namespace lkeme\BiliHelper;
+namespace roceys\BiliHelper;
 
 class Login
 {

@@ -7,7 +7,7 @@
  *  Updated: 2018
  */
 
-namespace lkeme\BiliHelper;
+namespace roceys\BiliHelper;
 
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;

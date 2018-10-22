@@ -7,12 +7,12 @@
  *  Updated: 2018
  */
 
-namespace lkeme\BiliHelper;
+namespace roceys\BiliHelper;
 
-use lkeme\BiliHelper\Curl;
-use lkeme\BiliHelper\Sign;
-use lkeme\BiliHelper\Log;
-use lkeme\BiliHelper\Index;
+use roceys\BiliHelper\Curl;
+use roceys\BiliHelper\Sign;
+use roceys\BiliHelper\Log;
+use roceys\BiliHelper\Index;
 
 class File
 {
